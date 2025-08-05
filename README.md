@@ -54,11 +54,11 @@ cd DLIDF
 pip install -r requirements.txt
 ```
 Usage
-Option 1: Run via Google Colab (Recommended)
+#### Option 1: Run via Google Colab (Recommended)
 
 Upload the dataset (e.g. UNSW-NB15.csv) and launch the Colab notebook.
 
-Option 2: Local Execution
+#### Option 2: Local Execution
 
 ```bash
 python app/main.py
@@ -78,17 +78,15 @@ View accuracy, precision, recall, F1-score, and confusion matrix
 | AutoEncoder | \~92%    | 0.89      | 0.91   | 0.90     |
 | Conv2D CNN  | **99%**  | 0.98      | 0.99   | 0.98     |
 
-Datasets
-UNSW-NB15 Dataset
+## Datasets
+The model was trained using the [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset), which contains diverse and labeled IoT network traffic.
+
 
 Format: CSV with labeled traffic as "Normal" or "Attack"
 
 Max size handled: ~90,000 samples (adjustable)
 
-Documentation
-Detailed technical information, diagrams (ER, DFD, UML), and system architecture are available in the 📄 Project Report
-
-Security & Ethical Considerations
+## Security & Ethical Considerations
 The tool is meant strictly for educational and ethical research purposes.
 
 Do not use this system on real networks without authorization.
